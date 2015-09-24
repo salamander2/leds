@@ -14,18 +14,18 @@ Introductory Python programs for controlling LEDs using a Raspberry Pi (for my w
 
 This will make a folder called "leds" in your current dicrectory and put the programs in it.
 
-=====
-You can also run the the "pulse2.py" program in RaspberryPi/programs/Flasher  (it's in the same folder as the Flasher program). Get it using this command: 
+* Type `cd leds` to change directory.
+* Type `ls -l` to see a listing of the programs.
+* Type `sudo python light2.py` to run program 2.
 
-**<pre>wget https://raw.githubusercontent.com/salamander2/RaspberryPi/master/programs/Flasher/Pulse2.py</pre>**
+=====
+You can also run the the "Pulse2.py" program which will pulse the two LEDS using PWM mode.
 
 =====
 ### Add the 3 colour LED
 ![two](https://raw.githubusercontent.com/salamander2/leds/master/RPICircuit2_bb.png)
 
-Now you can run the TriColour program in the RaspberryPi/programs/Tricolour folder
-
-**<pre>wget https://raw.githubusercontent.com/salamander2/RaspberryPi/master/programs/TriColour/TriColour.</pre>**
+Now you can run the TriColour program "Tricolour.py". Press 'r', 'g', and 'b' keys to increase the red, green, and blue.  Use capital R G B to decrease the amounts.
 
 ### Bigger and Better Things ...
 For the repository that contains everything, please go to the one called "RaspberryPi" https://github.com/salamander2/RaspberryPi
