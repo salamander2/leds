@@ -20,8 +20,8 @@ Introductory Python programs for controlling LEDs using a Raspberry Pi (for my w
 
 This will make a folder called "leds" in your current dicrectory and put the programs in it.
 
-* Type `cd leds` to change directory to "leds".
-* Type `ls -l` to see a listing of the programs.
+* Type **`cd leds`** to change directory to "leds".
+* Type **`ls -l`** to see a listing of the programs.
 * The programs get more complex and refined from #1 to #5. 
 * Example: **`sudo python light2.py`** to run program 2.
 
@@ -34,7 +34,8 @@ You can also run the the "Pulse2.py" program which will pulse the two LEDS using
 
 * Connections:
  * the long leg of the LED goes to GND.
- * the three resistors connect to the short legs and also connect to #13, #19, #26
+ * the three resistors connect to the short legs of the 3 colour LED.
+ * they also connect to GPIO pins #13, #19, #26
  
 Now you can run the TriColour program "Tricolour.py". Press 'r', 'g', and 'b' keys to increase the red, green, and blue.  Use capital R G B to decrease the amounts.
 
