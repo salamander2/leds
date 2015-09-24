@@ -6,7 +6,13 @@ Introductory Python programs for controlling LEDs using a Raspberry Pi (for my w
 ### Build this circuit first
 ![one](https://raw.githubusercontent.com/salamander2/leds/master/circuits/RPI_LED_Circuit1.png)
 
+* Connections (it's really hard to read the numbers):
+ * the black wires go to GND.
+ * the yellow wire for from the Red LED resistor goes to #25
+ * the blue wire for from the Green LED resistor goes to #20
+ * the red wire from the switch is connected to #6
 
+=====
 * With this circuit you can run all of the programs in this repository.
 * To copy all of these programs, type 
 
@@ -26,6 +32,10 @@ You can also run the the "Pulse2.py" program which will pulse the two LEDS using
 ### Add the 3 colour LED
 ![two](https://raw.githubusercontent.com/salamander2/leds/master/circuits/RPI_LED_Circuit2.png)
 
+* Connections:
+ * the long leg of the LED goes to GND.
+ * the three resistors connect to the short legs and also connect to #13, #19, #26
+ 
 Now you can run the TriColour program "Tricolour.py". Press 'r', 'g', and 'b' keys to increase the red, green, and blue.  Use capital R G B to decrease the amounts.
 
 ### Bigger and Better Things ...
