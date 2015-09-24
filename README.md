@@ -6,7 +6,7 @@ Introductory Python programs for controlling LEDs using a Raspberry Pi (for my w
 ### Build this circuit first
 ![one](https://raw.githubusercontent.com/salamander2/leds/master/circuits/RPI_LED_Circuit1.png)
 
-* Connections (it's really hard to read the numbers):
+* Connections to the T-Cobbler (it's really hard to read the numbers):
  * the black wires go to GND.
  * the yellow wire for from the Red LED resistor goes to #25
  * the blue wire for from the Green LED resistor goes to #20
