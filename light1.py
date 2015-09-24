@@ -3,7 +3,7 @@
 import RPi.GPIO as GPIO
 
 # pins for LEDs
-L1 = 7
+L1 = 25
 
 #set up GPIO
 GPIO.setmode(GPIO.BCM)
