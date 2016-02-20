@@ -7,7 +7,7 @@ Introductory Python programs for controlling LEDs using a Raspberry Pi (for my w
 ![one](https://raw.githubusercontent.com/salamander2/leds/master/circuits/RPI_LED_Circuit1.png)
 
 * Resistor: use a 100 - 220 Ohm resistor. _Different kits have different resistors._ [Resistor colour codes](http://www.bpesolutions.com/atechnical/resistorqv.pdf)
-* Connections to the T-Cobbler (it's really hard to read the numbers):
+* Connections to the T-Cobbler (it's really hard to read the numbers unless you click on the image):
  * the black wires go to GND.
  * the yellow wire for from the Red LED resistor goes to #25
  * the blue wire for from the Green LED resistor goes to #20
