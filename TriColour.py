@@ -2,10 +2,15 @@
 ##############################################################
 # This program changes the colour of a Tri-Colour LED
 # based on which keys you press.
+# Note: this program requires that it be run from a command line.
+# Since it uses the terminal, it will not work in Thonny IDE.
+# ------------------------------------------------------------
+# Update Dec 2020: remove import thread, fix print() statements
+
 
 __author__ = 'griffin'
 import RPi.GPIO as GPIO
-import time, thread
+import time
 
 # ##global variables
 # here are the GPIO pins in the order that they're connected.
@@ -83,9 +88,9 @@ def main2():
     blue.start(bb)
     green.start(gg)
     red.start(rr)
-    print "Press r g b to increase brightness"
-    print "Press R G B to decrease brightness"
-    print "Press q or c to quit the program (cancel)\n"
+    print ("Press r g b to increase brightness")
+    print ("Press R G B to decrease brightness")
+    print ("Press q or c to quit the program (cancel)\n")
     keypress = _Getch()
     try:
         while True:
@@ -120,7 +125,7 @@ def main2():
                 rr -= 5
                 if rr < 0: rr = 0
                 red.ChangeDutyCycle(rr)
-            print "%d %d %d" % (rr, gg, bb) 
+            print ("%d %d %d" % (rr, gg, bb))
             time.sleep(pauseTime)
 
     except KeyboardInterrupt:
