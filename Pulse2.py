@@ -6,7 +6,7 @@
 
 __author__ = 'griffin'
 import RPi.GPIO as GPIO
-import time, thread
+import time
 
 # ##global variables
 
